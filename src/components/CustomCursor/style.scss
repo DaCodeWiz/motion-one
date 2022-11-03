@@ -1,0 +1,15 @@
+@import "../../styles/_mixins.scss";
+
+.secondary-cursor {
+  z-index: 1000;
+  position: fixed;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  background-color: #C7BBAC;
+  mix-blend-mode: difference;
+  border-radius: 100%;
+  a:hover, a:focus {
+    transform: scale(1.1);
+  }
+}

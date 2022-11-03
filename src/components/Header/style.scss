@@ -1,0 +1,15 @@
+.brand-description {
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 10vw;
+  max-width: 120px;
+  transition: transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: 0.5s;
+  color: #C7BBAC;
+  mix-blend-mode: overlay;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+}
